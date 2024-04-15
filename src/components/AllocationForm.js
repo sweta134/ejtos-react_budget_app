@@ -59,7 +59,7 @@ const AllocationForm = (props) => {
                         <option defaultValue value="Add" name="Add">Add</option>
                 <option value="Reduce" name="Reduce">Reduce</option>
                   </select>
-
+                    <label style={{marginLeft: '20px', marginRight: '-20px'}}>£</label>
                     <input
                         required='required'
                         type='number'
